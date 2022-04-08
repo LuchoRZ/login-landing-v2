@@ -6,37 +6,53 @@
     color: #fff;
 }
 
-.contenedor {
+.container {
     width: 100%;
     height: 100vh;
-    background-color: #2b0f8d;
+    font-weight: 550;
+    background-color: #390099;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.loginbox {
+.content {
     width: 520px;
     height: 400px;
-    background-color: rgb(236, 0, 59);
+    background-color: #FF0054;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    border-radius: 12px;
     padding: 30px;
-    border-radius: 10px;
-}
+  }
 
-p{
+  input{
+    width: 300px;
+    height: ;
+    border-radius: 20px;
+    border: solid #FF0054;
+    margin: 3px;
+    padding: 10px;
+  }
+
+  
+
+    
+
+  .ingresar{
+    background-color: #202157;
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+    font-weight: 550;
+    
+  }
 
-.user {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-}
+  p{
+    margin-left: 8px;
+    font-size: 22px;
+  }
+    
+
+
